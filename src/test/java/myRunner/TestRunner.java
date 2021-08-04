@@ -10,6 +10,7 @@ import org.junit.runner.RunWith;
         features = {".//Features/ProductsPageVerification.feature"},
         glue="stepDefinitions",
         dryRun=false,
+        tags="@all",
         plugin={"pretty", "html:test-output/report.html"}
 )
 public class TestRunner {
